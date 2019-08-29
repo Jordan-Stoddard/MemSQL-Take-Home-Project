@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  list-style: none;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+  font-family: Lato;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.memSQL_topbar {
+  background: #1b1a21;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.memSQL_topbar img {
+  width: 135.72px;
+  height: 21.5px;
+  padding: 24px;
+}
+.container {
+  width: 1024px;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .calendar_circle {
+  background: #f9edff;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .calendar_circle i {
+  font-size: 56px;
+  line-height: 64px;
+  background: linear-gradient(180deg, #aa00ff 0%, #00a3d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .inner_container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.container .inner_container .demo_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container .inner_container .demo_text h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+}
+.container .inner_container .demo_text p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #777582;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+.container .inner_container .input_section {
+  display: flex;
+  flex-direction: column;
+}
+.container .inner_container .input_section label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+.container .inner_container .input_section .demo_input {
+  margin-bottom: 24px;
+  background: #f3f3f5;
+  border-radius: 4px;
+  border: none;
+  height: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px;
+  font-weight: normal;
+  color: #777582;
+}
+.container .inner_container .input_section .radio_button_container {
+  display: flex;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_left {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_left .radio_pair {
+  margin-bottom: 8px;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_left .radio_pair label {
+  font-size: 14px;
+  line-height: 20px;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_left .radio_pair input {
+  background: #8800cc;
+  cursor: pointer;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_right {
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_right .radio_pair {
+  margin-bottom: 8px;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_right .radio_pair label {
+  font-size: 14px;
+  line-height: 20px;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_right .radio_pair input {
+  cursor: pointer;
+  background: #fafafa;
+  border: 1px solid #777582;
+  border-radius: 64px;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_right .radio_pair input:hover {
+  background: #ccc;
+}
+.container .inner_container .input_section .radio_button_container .radio_column_right .radio_pair input:checked {
+  background: purple;
+}
